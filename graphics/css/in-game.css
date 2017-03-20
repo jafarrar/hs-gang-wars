@@ -1,0 +1,174 @@
+.flyout {
+    width: 1920px;
+    height: 1080px;
+    position: fixed;
+    background: transparent;
+    right: -640px;
+    transition: all .5s linear;
+}
+
+.flyout#active {
+    right: 0;
+}
+
+.flyout.update {
+    background: url('../img/ingameUpdateFlyout.png') no-repeat;
+}
+
+.flyout.twitter {
+    background: url('../img/ingameTwitterFlyout.png') no-repeat;
+}
+
+.flyout .label {
+    font-family: 'nexa_boldregular', arial;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.flyoutContent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+    width: 540px;
+    letter-spacing: 2px;   
+}
+
+.deckBox {
+    position: absolute;
+}
+
+.seriesInfo {
+    position: absolute;
+    width: 250px;
+    height: 170px;
+    right: 0;
+    top: 50px;
+    text-align: center;
+    letter-spacing: 2px;   
+}
+
+#seriesInfo1 {
+    font-size: 32px;
+    font-family: 'nexa_boldregular', arial;
+}
+
+#seriesInfo2 {
+    font-size: 18px;
+    color: #f9b955;
+}
+
+#seriesInfo3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.tag {
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    font-family: 'nexa_boldregular', arial;
+    letter-spacing: 2px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.score {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    color: #f9b955;
+    text-align: center;
+    font-family: 'nexa_boldregular', arial;
+    font-size: 48px;
+}
+
+.leftPanel .score {
+    left: 200px;
+    top: 512px;
+} 
+
+.rightPanel .score {
+    right: 200px;
+    top: 512px;
+} 
+
+.leftPanel .tag {
+    left: 15px;
+    top: 442px;
+}
+
+.rightPanel .tag {
+    right: 15px;
+    top: 583px;
+}
+
+.leftPanel .deckBox {
+    left: 54px;
+    bottom: 289px;
+}
+
+.rightPanel .deckBox {
+    right: 54px;
+    top: 281px;
+}
+
+.deckBox .picks div {
+    width: 210px;
+    height: 64px;
+    margin-top: 8px;
+}
+
+.leftPanel #activeClass {
+    position: absolute;
+    left: 58px;
+    width: 141px;
+    height: 179px;
+    bottom: 302px;
+    transform: scaleX(-1);
+}
+
+.rightPanel #activeClass {
+    position: absolute;
+    right: 58px;
+    width: 141px;
+    height: 179px;
+    top: 292px;
+}
+
+#activeClass.Druid {
+    background: url('../img/ingame_Druid.png') no-repeat;
+}
+
+#activeClass.Hunter {
+    background: url('../img/ingame_Hunter.png') no-repeat;
+}
+
+#activeClass.Mage {
+    background: url('../img/ingame_Mage.png') no-repeat;
+}
+
+#activeClass.Paladin {
+    background: url('../img/ingame_Paladin.png') no-repeat;
+}
+
+#activeClass.Priest {
+    background: url('../img/ingame_Priest.png') no-repeat;
+}
+
+#activeClass.Rogue {
+    background: url('../img/ingame_Rogue.png') no-repeat;
+}
+
+#activeClass.Shaman {
+    background: url('../img/ingame_Shaman.png') no-repeat;
+}
+
+#activeClass.Warlock {
+    background: url('../img/ingame_Warlock.png') no-repeat;
+}
+
+#activeClass.Warrior {
+    background: url('../img/ingame_Warrior.png') no-repeat;
+}

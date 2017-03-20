@@ -1,0 +1,41 @@
+.flyout {
+    width: 1920px;
+    height: 1080px;
+    position: fixed;
+    background: transparent;
+    bottom: -120px;
+    transition: all .5s linear;
+}
+
+.flyout#active {
+    bottom: 0;
+}
+
+.flyoutContent {
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    font-size: 24px;
+    letter-spacing: 2px;   
+}
+
+.flyout .twitter .flyoutContent {
+    bottom: 36px;
+}
+
+.flyout .label, .flyout .message {
+    display: inline-block;
+}
+
+.flyout .label {
+    font-family: 'nexa_boldregular', arial;
+    margin-right: 10px;
+}
+
+.flyout.update {
+    background: url('../img/outgameUpdateFlyout.png') no-repeat
+}
+
+.flyout.twitter {
+    background: url('../img/outgameTwitterFlyout.png') no-repeat
+}

@@ -1,0 +1,115 @@
+{
+  "name": "hs-gang-wars",
+  "version": "0.0.0",
+  "description": "NodeCG bundle for Amaz's Gang Wars Hearthstone event",
+  "homepage": "",
+  "author": {
+    "name": "Andrew Farrar",
+    "email": "kegwen@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "nodecg",
+    "hearthstone",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.8.0",
+    "dashboardPanels": [
+      {
+        "name": "broadcast",
+        "title": "Broadcast",
+        "width": 4,
+        "file": "broadcast.html",
+        "headerColor": "#9f9bbd"
+      },
+      {
+        "name": "series",
+        "title": "Series",
+        "width": 4,
+        "file": "series.html",
+        "headerColor": "#9f9bbd"
+      },
+      {
+        "name": "players",
+        "title": "Players Editor",
+        "width": 4,
+        "file": "players.html",
+        "headerColor": "#9f9bbd"
+      },
+      {
+        "name": "bracket",
+        "title": "Bracket Editor",
+        "width": 4,
+        "file": "bracket.html",
+        "headerColor": "#9f9bbd"
+      }
+    ],
+"graphics": [
+      {
+        "file": "up-next.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "up-next-lb.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "up-next-nostandings.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "caster-cams-overview.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "caster-cams-overview-lb.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "caster-cams-midseries.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "in-game.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "flyout.html",
+        "width": 1920,
+        "height": 100
+      }
+    ],
+    "assetCategories": [
+      {
+        "name": "player-pictures",
+        "title": "Player Pictures",
+        "allowTypes": [
+          "jpg"
+        ]
+      },
+      {
+        "name": "caster-pictures",
+        "title": "Caster Pictures",
+        "allowTypes": [
+          "jpg"
+        ]
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "MIT"
+}

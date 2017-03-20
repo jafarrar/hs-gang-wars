@@ -1,0 +1,507 @@
+.seriesScore {
+    position: absolute;
+    top: 508px;
+    font-size: 42px;
+    font-family: 'nexa_boldregular', arial;
+    color: #f1c252;
+}
+
+.eliminated {
+    color: red;
+}
+
+.leftScore {
+    left: 315px;
+}
+
+.rightScore {
+    right: 315px;
+}
+
+.standingsBox {
+    position: absolute;
+    width: 325px;
+    height: 430px;
+    border: 2px solid transparent;
+    top: 510px;
+}
+
+.left .standingsBox:first-child {
+    left: 228px;
+}
+
+.left .standingsBox:last-child {
+    left: 607px;
+}
+
+.right .standingsBox:first-child {
+    right: 607px;
+}
+
+.right .standingsBox:last-child {
+    right: 228px;
+}
+
+.standingsPlayer {
+    height: 52px;
+    width: 100%;
+    border: 1px solid transparent;
+    font-size: 24px;
+    position: relative;
+}
+
+.standingsPlayer.through {
+    color: #f1c252;
+} 
+
+.standingsPlayer .score {
+    text-align: right;
+}
+
+.standingsPlayer .tag {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    letter-spacing: 2px;
+}
+
+.standingsPlayer .score {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+
+.bracketsContainer {
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 0;
+    left: 0;  
+}
+
+.seriesContainer {
+    position: absolute;
+    width: 260px;
+    height: 82px;
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+
+.seriesContainer > .through {
+    color: #f9b955;
+}
+
+.tag, .score {
+    position: absolute;
+}
+
+.tag {
+    width: 235px;
+    height: 30px;
+    left: 16px;
+}
+
+.score {
+    height: 30px;
+    right: 23px;
+    font-family: 'nexa_boldregular', arial;
+}
+
+.player1 .tag {
+    top: 4px;
+}
+
+.player1 .score {
+    top: 4px;
+}
+
+.player2 .tag {
+    bottom: 4px;
+}
+
+.player2 .score {
+    bottom: 4px;
+}
+
+div[id='Round of 16 Five'] .tag,
+div[id='Round of 16 Six'] .tag,
+div[id='Round of 16 Seven'] .tag,
+div[id='Round of 16 Eight'] .tag,
+div[id='Quarter Finals 3'] .tag,
+div[id='Quarter Finals 4'] .tag,
+div[id='Semi Finals 2'] .tag {
+    left: 16px;
+    text-align: right;
+}
+
+div[id='Round of 16 Five'] .score,
+div[id='Round of 16 Six'] .score,
+div[id='Round of 16 Seven'] .score,
+div[id='Round of 16 Eight'] .score,
+div[id='Quarter Finals 3'] .score,
+div[id='Quarter Finals 4'] .score,
+div[id='Semi Finals 2'] .score {
+    left: 23px;
+}
+
+div[id='Round of 16 One'],
+div[id='Round of 16 Two'],
+div[id='Round of 16 Three'],
+div[id='Round of 16 Four'] {
+    left: 48px;
+}
+
+div[id='Round of 16 One'],
+div[id='Round of 16 Five'] {
+    top: 453px;
+}
+
+div[id='Round of 16 Two'],
+div[id='Round of 16 Six'] {
+    top: 570px;
+}
+
+div[id='Round of 16 Three'],
+div[id='Round of 16 Seven'] {
+    top: 698px;
+}
+
+div[id='Round of 16 Four'],
+div[id='Round of 16 Eight'] {
+    top: 815px;
+}
+
+div[id='Round of 16 Five'],
+div[id='Round of 16 Six'],
+div[id='Round of 16 Seven'],
+div[id='Round of 16 Eight'] {
+    right: 48px;
+}
+
+div[id='Quarter Finals 1'] {
+    top: 513px;
+    left: 355px;
+}
+
+div[id='Quarter Finals 2'] {
+    top: 758px;
+    left: 355px;
+}
+
+div[id='Quarter Finals 3'] {
+    top: 513px;
+    right: 355px;
+}
+
+div[id='Quarter Finals 4'] {
+    top: 758px;
+    right: 355px;
+}
+
+div[id='Semi Finals 1'] {
+    top: 633px;
+    left: 670px;
+}
+
+div[id='Semi Finals 2'] {
+    top: 633px;
+    right: 670px;
+}
+
+div[id='Grand Final'] {
+    top: 787px;
+    right: 830px;
+}
+
+div[id='LR1 One'],
+div[id='LR1 Two'],
+div[id='LR1 Three'],
+div[id='LR1 Four'],
+div[id='LR2 One'],
+div[id='LR2 Two'],
+div[id='LR2 Three'],
+div[id='LR2 Four'],
+div[id='LR3 One'],
+div[id='LR3 Two'],
+div[id='LR4 One'],
+div[id='LR4 Two'],
+div[id='LR Semifinals'],
+div[id='Losers Finals'] {
+    visibility: hidden;
+}
+
+.casterLabel {
+    position: absolute;
+    top: 355px;
+    width: 465px;
+    height: 50px;
+    
+}
+
+.casterLabel:first-child {
+    left: 220px;
+}
+
+.casterLabel:last-child {
+    right: 218px;
+}
+
+.casterLabel .name {
+    font-size:24px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 13px;
+}
+
+.casterLabel:first-child .name {
+    left: 10px;
+}
+
+.casterLabel:last-child .name {
+    right: 10px;
+}
+
+.playerBox {
+    font-size: 24px;
+    position: absolute;
+    top: 520px;
+    text-align: center;
+    width: 425px;
+    height: 50px;
+}
+
+.playerBox strong {
+    font-family: 'nexa_boldregular', arial;
+}
+
+.playerTwitter {
+    position: absolute;
+    bottom: -32px;
+    color: #f1c252;
+}
+
+.playerBox:first-child .playerTwitter {
+    right: 35px;
+}
+
+.playerBox:last-child .playerTwitter {
+    left: 35px;
+}
+
+.playerBox:last-child .playerPicture {
+    z-index: -9;
+    position: absolute;
+    left: -151px;
+    width: 130px;
+    bottom: -40px;
+    border-top-right-radius: 22px;
+}
+
+.playerBox:first-child .playerPicture {
+    z-index: -9;
+    position: absolute;
+    right: -151px;
+    width: 132px;
+    bottom: -40px;
+    border-top-left-radius: 25px;
+}
+
+.playerBox:first-child {
+    left: 370px;
+}
+
+.playerBox:last-child {
+    right: 370px;
+}
+
+.ban-indicator {
+    position: absolute;
+    bottom: 0;
+}
+
+.deckbox {
+    position: absolute;
+    bottom: 50px;
+}
+
+.deckBox .bans div {
+    width: 101px;
+    height: 190px;
+    display: inline-block;
+}
+
+.deckBox .bans {
+    position: absolute; 
+    bottom: 155px;
+}
+
+.deckBox:first-child .bans {
+    left: 30px;
+}
+
+.deckBox:last-child .bans {
+    right: 30px;
+}
+
+.deckBox .picks {
+    position: absolute; 
+    bottom: 145px;
+}
+
+.deckBox .picks div {
+    width: 144px;
+    height: 270px;
+    display: inline-block;
+}
+
+.deckBox:first-child .picks {
+    left: 32px;
+}
+
+.deckBox:last-child .picks {
+    right: 32px;
+}
+
+.deckBox .bans .Druid {
+    background: url('../img/ban_Druid.png');
+}
+
+.deckBox .bans .Hunter {
+    background: url('../img/ban_Hunter.png');
+}
+
+.deckBox .bans .Mage {
+    background: url('../img/ban_Mage.png');
+}
+
+.deckBox .bans .Paladin {
+    background: url('../img/ban_Paladin.png');
+}
+
+.deckBox .bans .Priest {
+    background: url('../img/ban_Priest.png');
+}
+
+.deckBox .bans .Rogue {
+    background: url('../img/ban_Rogue.png');
+}
+
+.deckBox .bans .Shaman {
+    background: url('../img/ban_Shaman.png');
+}
+
+.deckBox .bans .Warlock {
+    background: url('../img/ban_Warlock.png');
+}
+
+.deckBox .bans .Warrior {
+    background: url('../img/ban_Warrior.png');
+}
+
+.deckBox .picks .Druid {
+    background: url('../img/class_Druid.png');
+}
+
+.deckBox .picks .Hunter {
+    background: url('../img/class_Hunter.png');
+}
+
+.deckBox .picks .Mage {
+    background: url('../img/class_Mage.png');
+}
+
+.deckBox .picks .Paladin {
+    background: url('../img/class_Paladin.png');
+}
+
+.deckBox .picks .Priest {
+    background: url('../img/class_Priest.png');
+}
+
+.deckBox .picks .Rogue {
+    background: url('../img/class_Rogue.png');
+}
+
+.deckBox .picks .Shaman {
+    background: url('../img/class_Shaman.png');
+}
+
+.deckBox .picks .Warlock {
+    background: url('../img/class_Warlock.png');
+}
+
+.deckBox .picks .Warrior {
+    background: url('../img/class_Warrior.png');
+}
+
+.deckBox .picks .Druid.win {
+    background: url('../img/winClass.png') no-repeat 50% 68%, url('../img/class_Druid.png');
+}
+
+.deckBox .picks .Hunter.win {
+    background: url('../img/winClass.png') no-repeat 50% 68%, url('../img/class_Hunter.png');
+}
+
+.deckBox .picks .Mage.win {
+    background: url('../img/winClass.png') no-repeat 50% 68%, url('../img/class_Mage.png');
+}
+
+.deckBox .picks .Paladin.win {
+    background: url('../img/winClass.png') no-repeat 50% 68%, url('../img/class_Paladin.png');
+}
+
+.deckBox .picks .Priest.win {
+    background: url('../img/winClass.png') no-repeat 50% 68%, url('../img/class_Priest.png');
+}
+
+.deckBox .picks .Rogue.win {
+    background: url('../img/winClass.png') no-repeat 50% 68%, url('../img/class_Rogue.png');
+}
+
+.deckBox .picks .Shaman.win {
+    background: url('../img/winClass.png') no-repeat 50% 68%, url('../img/class_Shaman.png');
+}
+
+.deckBox .picks .Warlock.win {
+    background: url('../img/winClass.png') no-repeat 50% 68%, url('../img/class_Warlock.png');
+}
+
+.deckBox .picks .Warrior.win {
+    background: url('../img/winClass.png') no-repeat 50% 68%, url('../img/class_Warrior.png');
+}
+
+.deckBox .picks .Druid.loss {
+    background: url('../img/loseClass.png') no-repeat 50% 68%, url('../img/class_Druid.png');
+}
+
+.deckBox .picks .Hunter.loss {
+    background: url('../img/loseClass.png') no-repeat 50% 68%, url('../img/class_Hunter.png');
+}
+
+.deckBox .picks .Mage.loss {
+    background: url('../img/loseClass.png') no-repeat 50% 68%, url('../img/class_Mage.png');
+}
+
+.deckBox .picks .Paladin.loss {
+    background: url('../img/loseClass.png') no-repeat 50% 68%, url('../img/class_Paladin.png');
+}
+
+.deckBox .picks .Priest.loss {
+    background: url('../img/loseClass.png') no-repeat 50% 68%, url('../img/class_Priest.png');
+}
+
+.deckBox .picks .Rogue.loss {
+    background: url('../img/loseClass.png') no-repeat 50% 68%, url('../img/class_Rogue.png');
+}
+
+.deckBox .picks .Shaman.loss {
+    background: url('../img/loseClass.png') no-repeat 50% 68%, url('../img/class_Shaman.png');
+}
+
+.deckBox .picks .Warlock.loss {
+    background: url('../img/loseClass.png') no-repeat 50% 68%, url('../img/class_Warlock.png');
+}
+
+.deckBox .picks .Warrior.loss {
+    background: url('../img/loseClass.png') no-repeat 50% 68%, url('../img/class_Warrior.png');
+}

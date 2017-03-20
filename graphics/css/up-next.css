@@ -1,0 +1,216 @@
+.top {
+    position: absolute;
+    bottom: 72px;
+    left: 35px;
+    font-size: 36px;
+    font-family: 'nexa_boldregular', arial;
+    letter-spacing: 1px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 34px;
+    left: 35px;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.eliminated {
+    color: red;
+}
+
+.standingsPlayer {
+    height: 52px;
+    width: 100%;
+    border: 1px solid transparent;
+    font-size: 24px;
+    position: relative;
+}
+
+.standingsPlayer.through {
+    color: #f1c252;
+} 
+
+
+.standingsPlayer .score {
+    text-align: right;
+}
+
+.standingsPlayer .tag {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    letter-spacing: 2px;
+}
+
+.standingsPlayer .score {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+
+.bracketsContainer {
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 0;
+    left: 0;  
+}
+
+.seriesContainer {
+    position: absolute;
+    width: 260px;
+    height: 82px;
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+
+.seriesContainer > .through {
+    color: #f9b955;
+} 
+
+.tag, .score {
+    position: absolute;
+}
+
+.tag {
+    width: 235px;
+    height: 30px;
+    left: 16px;
+}
+
+.score {
+    height: 30px;
+    right: 23px;
+    font-family: 'nexa_boldregular', arial;
+}
+
+.player1 .tag {
+    top: 4px;
+}
+
+.player1 .score {
+    top: 4px;
+}
+
+.player2 .tag {
+    bottom: 4px;
+}
+
+.player2 .score {
+    bottom: 4px;
+}
+
+div[id='Round of 16 Five'] .tag,
+div[id='Round of 16 Six'] .tag,
+div[id='Round of 16 Seven'] .tag,
+div[id='Round of 16 Eight'] .tag,
+div[id='Quarter Finals 3'] .tag,
+div[id='Quarter Finals 4'] .tag,
+div[id='Semi Finals 2'] .tag {
+    left: 16px;
+    text-align: right;
+}
+
+div[id='Round of 16 Five'] .score,
+div[id='Round of 16 Six'] .score,
+div[id='Round of 16 Seven'] .score,
+div[id='Round of 16 Eight'] .score,
+div[id='Quarter Finals 3'] .score,
+div[id='Quarter Finals 4'] .score,
+div[id='Semi Finals 2'] .score {
+    left: 23px;
+}
+
+div[id='Round of 16 One'],
+div[id='Round of 16 Two'],
+div[id='Round of 16 Three'],
+div[id='Round of 16 Four'] {
+    left: 48px;
+}
+
+div[id='Round of 16 One'],
+div[id='Round of 16 Five'] {
+    top: 453px;
+}
+
+div[id='Round of 16 Two'],
+div[id='Round of 16 Six'] {
+    top: 570px;
+}
+
+div[id='Round of 16 Three'],
+div[id='Round of 16 Seven'] {
+    top: 698px;
+}
+
+div[id='Round of 16 Four'],
+div[id='Round of 16 Eight'] {
+    top: 815px;
+}
+
+div[id='Round of 16 Five'],
+div[id='Round of 16 Six'],
+div[id='Round of 16 Seven'],
+div[id='Round of 16 Eight'] {
+    right: 48px;
+}
+
+div[id='Quarter Finals 1'] {
+    top: 513px;
+    left: 355px;
+}
+
+div[id='Quarter Finals 2'] {
+    top: 758px;
+    left: 355px;
+}
+
+div[id='Quarter Finals 3'] {
+    top: 513px;
+    right: 355px;
+}
+
+div[id='Quarter Finals 4'] {
+    top: 758px;
+    right: 355px;
+}
+
+div[id='Semi Finals 1'] {
+    top: 633px;
+    left: 670px;
+}
+
+div[id='Semi Finals 2'] {
+    top: 633px;
+    right: 670px;
+}
+
+div[id='Grand Final'] {
+    top: 787px;
+    right: 830px;
+}
+
+.timer {
+    position: absolute;
+    font-size: 64px;
+    bottom: 20px;
+    right: 20px;
+}
+
+div[id='LR1 One'],
+div[id='LR1 Two'],
+div[id='LR1 Three'],
+div[id='LR1 Four'],
+div[id='LR2 One'],
+div[id='LR2 Two'],
+div[id='LR2 Three'],
+div[id='LR2 Four'],
+div[id='LR3 One'],
+div[id='LR3 Two'],
+div[id='LR4 One'],
+div[id='LR4 Two'],
+div[id='LR Semifinals'],
+div[id='Losers Finals'] {
+    visibility: hidden;
+}

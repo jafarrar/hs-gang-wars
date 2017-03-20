@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.input-group {
+    display: block;
+    margin: 5px 0;
+}
+
+.input-group input[type="checkbox"] {
+    width: auto;
+}
+
+.input-group label {
+    display: inline-block;
+    width: 20%;
+}
+
+.input-group input, .input-group select{
+    display: inline-block;
+    width: 75%;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-weight: 700;
+}
+
+.series h3 {
+    text-align: center;
+    margin-bottom: 0;
+}

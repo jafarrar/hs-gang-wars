@@ -1,0 +1,26 @@
+{
+  "name": "hs-gang-wars",
+  "description": "NodeCG bundle for Amaz's Gang Wars Hearthstone event",
+  "main": "",
+  "authors": [
+    "Andrew Farrar"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "nodecg",
+    "hearthstone",
+    "nodecg-bundle"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.4.1"
+  }
+}

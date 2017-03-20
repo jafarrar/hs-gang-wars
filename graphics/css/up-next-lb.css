@@ -1,0 +1,175 @@
+div[id='Round of 16 One'],
+div[id='Round of 16 Two'],
+div[id='Round of 16 Three'],
+div[id='Round of 16 Four'],
+div[id='Round of 16 Five'],
+div[id='Round of 16 Six'],
+div[id='Round of 16 Seven'],
+div[id='Round of 16 Eight'],
+div[id='Quarter Finals 1'],
+div[id='Quarter Finals 2'],
+div[id='Quarter Finals 3'],
+div[id='Quarter Finals 4'],
+div[id='Semi Finals 1'],
+div[id='Semi Finals 2'],
+div[id='Grand Final'] {
+    visibility: hidden;
+}
+
+div[id='LR1 One'],
+div[id='LR1 Two'],
+div[id='LR1 Three'],
+div[id='LR1 Four'],
+div[id='LR2 One'],
+div[id='LR2 Two'],
+div[id='LR2 Three'],
+div[id='LR2 Four'],
+div[id='LR3 One'],
+div[id='LR3 Two'],
+div[id='LR4 One'],
+div[id='LR4 Two'],
+div[id='LR Semifinals'],
+div[id='Losers Finals'] {
+    visibility: visible;
+}
+
+.seriesContainer {
+    position: absolute;
+    width: 199px;
+    height: 63px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.tag {
+    width: 150px;
+    height: 30px;
+    left: 16px;
+}
+
+.score {
+    right: 15px;
+    font-size: 20px;
+}
+
+.player1 .score {
+    top: 4px;
+}
+
+.player2 .score {
+    bottom: -4px;
+}
+
+.player1 .tag {
+    top: 4px;
+}
+
+.player2 .tag {
+    bottom: -4px;
+}
+
+div[id='Actual Grand Finals'] {
+    top: 481px;
+    right: 865px;
+}
+
+div[id='Losers Finals'] {
+    right: 865px;
+    top: 585px;
+}
+
+div[id='LR Semifinals'] {
+    right: 865px;
+    top: 692px;
+}
+
+div[id='LR1 One'],
+div[id='LR1 Two'] {
+    left: 18px;
+}
+
+div[id='LR1 One'] {
+    top: 539px;
+}
+
+div[id='LR1 Two'] {
+    top: 836px;
+}
+
+div[id='LR1 Three'],
+div[id='LR1 Four'] {
+    right: 21px;
+}
+
+div[id='LR1 Three'] {
+    top: 539px;
+}
+
+div[id='LR1 Four'] {
+    top: 836px;
+}
+
+div[id='LR2 One'],
+div[id='LR2 Two'] {
+    left: 223px;
+}
+
+div[id='LR2 One'] {
+    top: 617px;
+}
+
+div[id='LR2 Two'] {
+    top: 759px;
+}
+
+div[id='LR2 Three'],
+div[id='LR2 Four'] {
+    right: 226px;
+}
+
+div[id='LR2 Three'] {
+    top: 617px;
+}
+
+div[id='LR2 Four'] {
+    top: 759px;
+}
+
+div[id='LR3 One'] {
+    top: 693px;
+    left: 431px;
+}
+
+div[id='LR3 Two'] {
+    top: 693px;
+    right: 434px;
+}
+
+div[id='LR4 One'] {
+    top: 692px;
+    left: 643px;
+}
+
+div[id='LR4 Two'] {
+    top: 692px;
+    right: 647px;
+}
+
+div[id='LR1 Three'] .tag,
+div[id='LR1 Four'] .tag,
+div[id='LR2 Three'] .tag,
+div[id='LR2 Four'] .tag,
+div[id='LR3 Two'] .tag,
+div[id='LR4 Two'] .tag {
+    left: 36px;
+    text-align: right;
+}
+
+div[id='LR1 Three'] .score,
+div[id='LR1 Four'] .score,
+div[id='LR2 Three'] .score,
+div[id='LR2 Four'] .score,
+div[id='LR3 Two'] .score,
+div[id='LR4 Two'] .score {
+    left: 18px;
+}
